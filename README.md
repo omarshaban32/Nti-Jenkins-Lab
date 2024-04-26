@@ -1,6 +1,6 @@
-# Jenkins Pipeline 
+# Jenkins Project Diagram Overview
 
-> This document provides an overview of the Jenkins pipeline for building and deploying Dockerized applications to k8s minikube cluster.
+![](https://github.com/AliKhamed/Nti-Jenkins-Lab/blob/main/screenshots/Jenkins-project-diagram.png)
 
 
 ## Pipeline Overview
