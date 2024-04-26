@@ -69,7 +69,7 @@ stage('Deploy on k8s Cluster') {
             steps {
                 script { 
                 	dir('k8s') {
-				         deployOnKubernetes("${k8sCredentialsID}")
+				         deployOnKubernetes("${k8sCredentialsID}", "${branchName}")
                     }
                 }
             }
@@ -94,10 +94,10 @@ In case of pipeline success or failure, the following messages will be displayed
     }
 ```
 ----
-### - Successfully run the pipeline
-![](https://github.com/AliKhamed/Nti-Jenkins-Lab/blob/main/screenshots/1.png)
-![](https://github.com/AliKhamed/Nti-Jenkins-Lab/blob/main/screenshots/2.png)
----
+### - Successfully Run  Multibranch Pipeline
+![](https://github.com/AliKhamed/Nti-Jenkins-Lab/blob/main/screenshots/mul.png)
 
-### - Deployment from k8s minikube cluster
-![](https://github.com/AliKhamed/Nti-Jenkins-Lab/blob/main/screenshots/3.png)
+
+
+### - Successfully Run Test Branch Pipeline On k8s minikube cluster
+![](https://github.com/AliKhamed/Nti-Jenkins-Lab/blob/main/screenshots/test1.png)
