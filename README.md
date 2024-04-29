@@ -2,6 +2,8 @@
 
 ![](https://github.com/AliKhamed/Nti-Jenkins-Lab/blob/main/screenshots/Jenkins-project-diagram.png)
 
+## Shared Libirary Repository
+https://github.com/AliKhamed/shared_library.git
 
 ## Pipeline Overview
 
