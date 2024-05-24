@@ -5,7 +5,7 @@ pipeline {
     environment {
         dockerHubCredentialsID	            = 'DockerHub'  		    			      // DockerHub credentials ID.
         imageName   		            = 'omarshaban32/nti-python-app'     			// DockerHub repo/image name.
-	    k8sCredentialsID	            = 'kubernetes'	    				     // KubeConfig credentials ID.    
+	    k8sCredentialsID	            = 'mykubeconfig'	    				     // KubeConfig credentials ID.    
     }
     
     stages {       
